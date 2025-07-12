@@ -1,0 +1,4 @@
+{
+  "*.{js,jsx,ts,tsx}": ["eslint --fix --ignore-pattern eslint.config.js"],
+  "*.{json,css,md}": ["prettier --write"]
+}
